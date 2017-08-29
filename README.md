@@ -9,6 +9,8 @@
 
 I have shuffled data to prevent the case wher only similar traffic signs would be assigned to a batch. I have set training, valid, test to be around 60, 15, 25.
 
+![Lenet](./lenet_architecture.png)
+
 ### 2. CNN Archictecture
 I have used 1x1 convolution at the beginning of architecture in order to train neurons for colorspace (depth of 3). Then, I added two sets of convolution, activation, and pooling process. Activation function allows non-linear components in training neurons, while max pooling reduces the size of neurons and focuses on neurons that seem to matter most.
 1) Convolution took input of (32x32x3) and generated output of (28x28x6) by having filter size 5x5 with stride of 1 and valid padding. Then in pooling, its size got halved to (14x14x6) with stride of 2.
