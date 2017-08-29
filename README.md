@@ -23,3 +23,4 @@ I have set learning rate to be 0.0008 and increased epoch to be 18. I used adam 
 Validation accuracy comes out to be 0.984, while test accuracy is 0.933
 
 ### Output
+![FinalImage](./output.png)
