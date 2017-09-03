@@ -5,6 +5,9 @@
 3. Setting training Pipeline / Model Evaluation
 4. Train / Test results
 
+### Output
+![FinalImage](./output.png)
+
 ### 1. Data Exploration/ Preprocess Data
 
 I have shuffled data to prevent the case wher only similar traffic signs would be assigned to a batch. I have set training, valid, test to be around 60, 15, 25.
@@ -23,6 +26,3 @@ I have set learning rate to be 0.0008 and increased epoch to be 18. I used adam 
 
 ### 4. Train / Test Results
 Validation accuracy comes out to be 0.984, while test accuracy is 0.933
-
-### Output
-![FinalImage](./output.png)
